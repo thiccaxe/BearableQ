@@ -1,0 +1,73 @@
+/*--------------------*/
+/* Student Banner CSS */
+/*--------------------*/
+/* THEMES STYLE SHEET */
+/* DEFINE COLORS ONLY IN THIS STYLE SHEET */
+
+.Banner 
+{
+    background-color: var(--gray-8);
+	border-color: var(--gray-8) #000000 #957797 #000000;
+}
+.bannerlabeltext {
+    color: white;
+}
+.bannertbl td {
+	background-color: var(--gray-8);
+	color: white;
+	border-color: var(--gray-5);
+}
+.bannertbl .td2 {
+	background-color: #FFFFCC;
+	color: black;
+	border-color: var(--gray-5);
+}
+.bannertbl th {
+	background-color: var(--gray-7);
+	color: var(--gray-2);
+	border-color: var(--gray-5);
+}
+
+.bannertbl tr.even td {
+    background-color: var(--gray-9);    
+}
+
+.bannertbl tr.odd td {
+    background-color: var(--gray-8);
+}
+
+.bannertbl tr.sturow:hover td {
+    background-color: var(--gray-7);    
+}
+
+table.bannertbl tr.sturow:focus td {
+    background-color: var(--gray-7);    
+}
+
+.bannertbl .closeButtonRow {
+	background-color: var(--gray-7);
+}
+
+/* CSS for Search Dropdown panel */
+/* .searchtable {
+	background-color: white;
+	color: black;
+}
+.searchtable thead tr {
+	background-color: #CAB588;
+	color: black;
+}
+.searchtable a {
+    color: blue;
+}
+.searchtable a:hover {
+    color: blue;
+} */
+
+/* For the Banner Panels */
+.BannerPanel
+{
+    border-color: var(--gray-5);
+    color: black;
+    background-color: #CAB588;
+}

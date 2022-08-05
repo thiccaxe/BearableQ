@@ -1,0 +1,26 @@
+/*-----------------*/
+/* Main Master CSS */
+/*-----------------*/
+/* THEMES STYLE SHEET */
+/* DEFINE COLORS ONLY IN THIS STYLE SHEET */
+
+.titlebar
+{
+    background-color: #FFFFCC;
+    border-color: #CCCCCC #957797 #957797 #CCCCCC;
+}
+.footer
+{
+	background-color: var(--bg-color);
+	border-top-color: #FFFFCC;
+}
+.scrollFooter
+{
+    background-color: #FFFFCC;
+    border-top-color: #927741;
+}
+.mainPage
+{
+    background-color: var(--bg-color);
+    border-bottom-color: #927741;
+}

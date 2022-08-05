@@ -1,0 +1,22 @@
+/* ----------------------------------------------- */
+/* Notifications CSS                               */
+/* ------------------------------------------------*/
+/* THEMES STYLE SHEET */
+/* DEFINE COLORS ONLY IN THIS STYLE SHEET */
+
+.notifications
+{
+    border-color: #28023D;
+}
+.notificationstext {
+    color: black;
+}
+/* .altRow td {
+	background-color:#FFFFCC;
+}
+.altRowOdd td {
+	background-color:white;
+} */
+tr.over2 td {
+    background-color: #CAB588;
+}

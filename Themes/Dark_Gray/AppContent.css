@@ -1,0 +1,293 @@
+/*AppContent*/
+/*Theme: Dark Dark Dark Gray*/
+/* not affliated with MyAequitas Q */
+
+.leftTable, .topTable {
+    background-color: white;
+    border-color: #927741;
+}
+.rightDetails, .bottomDetails {
+    background-color: white;
+    border-color: #927741;
+}
+#splitter, #hsplitter {
+    border-left-color: #927741;
+    border-right-color: #927741;
+    border-top-color: #927741;
+    border-bottom-color: #927741;
+}
+.splitterLeftPanel, .splitterTopPanel {
+    background-color: #FFFFFF;
+    border-top-color: #927741;
+    border-bottom-color: #927741;
+    border-left-color: #927741;
+    border-right-color: #927741;
+}
+.splitterRightPanel, .splitterBottomPanel {
+    background-color: #FFFFFF;
+    border-top-color: #927741;
+    border-bottom-color: #927741;
+    border-left-color: #927741;
+    border-right-color: #927741;
+}
+.splitterTopBorder {
+	background-color: #F8E8B6;
+	border-top-color: #fefefe;
+	border-bottom-color: #957797;
+}
+.vsplitbar {
+    background-color: #FFFFCC;
+    border-left-color: #927741;
+    border-right-color: #927741;
+}
+.hsplitbar {
+    background-color: #FFFFCC;
+    border-top-color: #927741;
+    border-bottom-color: #927741;
+}
+.vsplitbar.active, .vsplitbar:hover, .hsplitbar.active, .hsplitbar:hover {
+    background-color: #7B4383;
+}
+.appBody {
+    background-color: #FFFFCC;
+}
+.appTableHeader {
+    background-color: #CAB588;
+}
+.appButtonBar {
+	background-color: #FFFFCC;
+	border-top-color: #fefefe;
+	border-bottom-color: #957797;
+}
+.appMenuBar {
+	background-color: #FFFFCC;
+	border-top-color: #fefefe;
+	border-bottom-color: #957797;
+}
+.appEditArea {
+	background-color: #FFFFFF;
+	border-top-color: #957797;
+	border-right-color: #957797;
+	border-bottom-color: #957797;
+	border-left-color: #957797;
+}
+.appValidationError {
+	background-color:#ffeeee; 
+	color:#ff0000;
+}
+.validationSummary {
+	background-color:#ffeeee; 
+	color:#ff0000;
+}
+.DnDrowDragClass
+{
+    background-color:#957797;
+}
+/*
+------------------------------------------------
+Background Colors
+------------------------------------------------
+*/
+
+.darkHighlight
+{
+    background-color: #28023D;
+    color: #ffffff;
+}
+.mediumHighlight
+{
+    background-color: var(--gray-8);
+    color: #ffffff;
+}
+.lightHighlight
+{
+    background-color: transparent;
+}
+.darkNeutral
+{
+    background-color: var(--gray-8);
+    color: var(--gray-2);
+}
+.mediumNeutral
+{
+    background-color: var(--gray-6);
+	color: var(--gray-9);
+}
+.lightNeutral
+{
+    background-color: var(--gray-7);
+	color: var(--gray-2);
+}
+.panelNeutral
+{
+    background-color: #FFFFF0;
+}
+
+/*
+------------------------------------------------
+Border Colors
+------------------------------------------------
+*/
+
+.darkHighlightBorder
+{
+    border-color: var(--gray-7);
+}
+.mediumHighlightBorder
+{
+    border-color: var(--gray-6);
+}
+.lightHighlightBorder
+{
+    border-color: var(--gray-6);
+}
+.darkNeutralBorder
+{
+    border-color: var(--gray-6);
+}
+.mediumNeutralBorder
+{
+    border-color: var(--gray-6);
+}
+.lightNeutralBorder
+{
+    border-color: var(--gray-6);
+}
+
+/*
+------------------------------------------------
+Font Foreground Color
+------------------------------------------------
+*/
+
+/* .darkHighlightColor
+{
+    color: #28023D;
+}
+.mediumHighlightColor
+{
+    color: #7B4383;
+}
+.lightHighlightColor
+{
+    color: #957797;
+}
+.darkNeutralColor
+{
+    color: #927741;
+}
+.mediumNeutralColor
+{
+    color: #CAB588;
+}
+.lightNeutralColor
+{
+    color: #FFFFCC;
+} */
+
+/*
+------------------------------------------------
+App Column Menu (Vertical)
+------------------------------------------------
+*/
+
+.appColumnMenu {float:left;
+                width:150px;
+                height:100%;
+                background-color:#CAB588;}  /* mediumNeutral*/
+
+.ColumnMenu {
+	width: 150px;
+	margin-top: 0px; /*10px*/
+	border-style: none none none none;
+	border-color: #D8D5D1;
+	border-width: 1px;
+	}
+    
+.ColumnMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    }
+    	
+.ColumnMenu li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 0.9em;
+	}	
+    	
+.ColumnMenu li a:link, .ColumnMenu li a:visited {
+	color: #FFFFFF;
+	display: block;
+	/*background:  url(../../../../Images/menu2.gif);*/
+	border-right: solid 1px #28023D;                        /* darkHighlight*/
+	border-bottom: solid 1px #28023D;                       /* darkHighlight*/
+	border-left: solid 1px #957797;                         /* lightHighlight*/
+	border-top: solid 1px #957797;                          /* lightHighlight*/
+	background-color: #7B4383;                              /* mediumHighlight*/
+	padding: 8px 0 0 5px;
+	}
+    	
+.ColumnMenu li a:hover {
+	color: #000000;
+	/*background:  url(../../../../Images/menu2.gif) 0 -32px;*/
+	background-color: #957797;                              /* lightHighlight*/
+	border-right: solid 1px #28023D;                        /* darkHighlight*/
+	border-bottom: solid 1px #28023D;                       /* darkHighlight*/
+	padding: 8px 0 0 5px;
+	}
+
+.ColumnMenu li a:focus {
+    outline: none;
+}
+
+.ColumnMenu li.selected a {
+	color: #000000;
+	/*background:  url(../../../../Images/menu2.gif) 0 -32px;*/
+	background-color: #CAB588;                              /* mediumNeutral*/
+	border-top: solid 1px #CAB588;                          /* mediumNeutral*/
+	border-right: solid 1px #CAB588;                        /* mediumNeutral*/
+	padding: 8px 10px 0 0;
+	text-align: right;
+	}
+
+.ColumnMenu li.selected a.last {
+    border-bottom: solid 1px #CAB588; 
+	}
+
+/*
+------------------------------------------------
+Table Sorter 
+------------------------------------------------
+*/
+
+.header:hover {
+	background-color: var(--gray-6);
+	cursor:pointer;
+}
+
+.headerSortUp .tablesorter-header-inner{
+	background-image: url(../images/asc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+	color: var(--gray-9);
+}
+.headerSortDown .tablesorter-header-inner {
+	background-image: url(../images/desc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+	color: var(--gray-9);
+}
+
+th.headerSortDown, th.headerSortUp {
+	background-image: none;
+}
+

@@ -1,0 +1,46 @@
+* {
+    font-smooth: never;
+    -webkit-font-smoothing: none;
+}
+
+#SP_Menu {
+    background-color: var(--gray-9);
+}
+
+#rightcolumn:not(#rightcolumn *) {
+    background-color: var(--gray-9) !important;
+}
+
+#page #main > div:first-child:not(#page #main > div:first-child *) {
+    background-color: var(--gray-9) !important;
+    color: var(--gray-2);
+}
+
+#header:not(#header *),
+#header > div[role="banner"]:not(#header > div[role="banner"] *) {
+    background-color: var(--gray-9);
+}
+#header > div > table > tbody > tr > td:nth-child(1) > h1 > img {
+    opacity: 0;
+}
+
+table[id^="SP1"] > tbody > tr:nth-child(2) {
+    background-color: var(--gray-8);
+    color: var(--gray-4);
+}
+
+
+#footer > table > tbody > tr > td:nth-child(3)::before {
+    display: block;
+    margin-top: auto;
+    font-size: 0.7rem;
+    content: "Theme \"Dark Dark Dark Grey\" based on \"Purple\" theme by MyAequitas; adapted by thiccaxe"
+}
+
+#page #header a.reminder[id] {
+    color: var(--gray-0) !important;
+}
+
+#SP_Detail > table > tbody > tr > td, #SP_Detail > table > tbody > tr {
+    padding-bottom: 2em;
+}
